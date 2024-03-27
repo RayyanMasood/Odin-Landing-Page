@@ -7,11 +7,21 @@ body {
     justify-content: space-between;
 }
 
-.head-hero {
-    height: 320px;
-    display: flex;
-    justify-content: space-around;
+.main-hh{
+    height: 420px;
+    width: 100%;
     background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-hero {
+    height: inherit;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background: #1f2937; */
 }
 
 .header {
@@ -21,7 +31,7 @@ body {
     font-size: 24px;
     display: flex;
     /* flex: 1; */
-    justify-content: inherit;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -36,4 +46,45 @@ body {
 
 .header-links a {
     text-decoration: none;
+}
+
+.hero-pic-cont {
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 32px;
+}
+
+.main-hero {
+    max-width: 50%;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sub-hero {
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px; /* Increase padding for larger button */
+    font-weight: bold; /* Make the text slightly bold */
+}
+
+.pic {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: scale-down;
+    overflow: scroll;
 }
