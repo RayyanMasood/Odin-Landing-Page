@@ -102,3 +102,22 @@ body {
     align-items: center;
 }
 
+.infos {
+    height: inherit;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info-header {
+    /* height: 32px; */
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
